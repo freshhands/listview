@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rg"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+
+
+    <RadioButton
+        android:id="@+id/rb_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/rb_01"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:text="主界面" />
+
+    <RadioButton
+        android:id="@+id/rb_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/rb_02"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:text="Frag_2" />
+
+    <RadioButton
+        android:id="@+id/rb_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/rb_03"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:text="Frag_3" />
+    <RadioButton
+        android:id="@+id/rb_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/rb_04"
+        android:button="@null"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:text="Frag_4" />
+
+</RadioGroup>
